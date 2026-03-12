@@ -42,11 +42,18 @@ docs/
 ## Objections
 Each scenario has 3 optional objections in Trainer Notes. These are for trainers to introduce after SCs have the basic flow. Don't introduce objections on the first run of a scenario.
 
+## Scoring Rubric
+- File: `docs/rubric/scoring-rubric.md`
+- Based on Demo2Win methodology (Peter Cohan)
+- 13 scored criteria across 5 sections, 52 points max
+- 4 performance bands: Demo-Ready, Developing, Building, Foundational
+- Includes debrief guide for Taylor to use after each session
+- Version: v1.0 — update version number at bottom of file when criteria change
+
 ## Pending Work
-- **Demo2Win scoring rubric** — to be built after Taylor reviews all 5 scenarios
-  - Base on Demo2Win methodology principles
-  - Designed for Taylor to score SC performance during/after roleplay
-  - Linked to each scenario's success criteria
+- Taylor to review all 5 scenarios and provide feedback
+- Refine rubric after first live training session
+- Roadmap: SC self-assessment checklist, video examples, additional verticals (dental, auto shop, law firm)
 
 ## How to Make Changes
 - To update a scenario: read it first, then edit only what changed — don't rewrite the whole file

@@ -22,7 +22,7 @@ docs/
 - Owner of Shear Bliss Salon, small team of 6 (grows to 8 in Scenario 5)
 - Started with no phone system — all personal cell phones
 - Friendly, practical, non-technical
-- Use her language: "clients" (not customers), "bookings" (not leads), "my team" (not employees)
+- Use his language: "clients" (not customers), "bookings" (not leads), "my team" (not employees)
 - Decision maker — no approvals needed from others
 
 ## Core Training Principles (never violate these)

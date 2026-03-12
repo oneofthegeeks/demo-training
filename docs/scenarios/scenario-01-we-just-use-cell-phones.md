@@ -6,9 +6,9 @@
 
 ## Business Context
 
-Taylor is the owner of a 6-person salon called **Shear Bliss**. She has two full-time stylists, two booth renters, and a part-time receptionist who only works weekends. There is no business phone number. Clients call whoever's number they have — sometimes Taylor, sometimes one of the stylists. When Taylor is with a client, she sends calls to voicemail — her personal voicemail with no business greeting. She's noticed that some weeks feel slow and wonders if they're losing bookings, but she hasn't connected that to the phone situation yet.
+Taylor is the owner of a 6-person salon called **Shear Bliss**. He has two full-time stylists, two booth renters, and a part-time receptionist who only works weekends. There is no business phone number. Clients call whoever's number they have — sometimes Taylor, sometimes one of the stylists. When Taylor is with a client, she sends calls to voicemail — his personal voicemail with no business greeting. He's noticed that some weeks feel slow and wonders if they're losing bookings, but he hasn't connected that to the phone situation yet.
 
-**Taylor's mindset going in:** She's open to hearing about options but doesn't feel urgent pain. She thinks the phone situation is "fine" — it's just how they've always done it.
+**Taylor's mindset going in:** He's open to hearing about options but doesn't feel urgent pain. He thinks the phone situation is "fine" — it's just how they've always done it.
 
 ---
 
@@ -122,7 +122,7 @@ The SC should uncover these through questions — not state them upfront:
 Taylor asks: *"How much does this cost?"* — Use this early in the demo, before the full value has been established. Good SC response: acknowledge the question, give a ballpark range, then redirect — *"Before we go deep on pricing, let me make sure this is even the right fit for you. Can I show you what this would actually look like for Shear Bliss first?"*
 
 **Objection 2 — Number porting concern:**
-Taylor asks: *"I've had my cell number on the salon website for two years. If I switch to GoTo Connect, do I lose that number?"* — Good SC response: explain number porting — Taylor can keep her existing number and have it transferred to GoTo Connect. The process typically takes 2–4 weeks and runs in parallel so there's no downtime. She doesn't have to start over.
+Taylor asks: *"I've had my cell number on the salon website for two years. If I switch to GoTo Connect, do I lose that number?"* — Good SC response: explain number porting — Taylor can keep his existing number and have it transferred to GoTo Connect. The process typically takes 2–4 weeks and runs in parallel so there's no downtime. He doesn't have to start over.
 
 **Objection 3 — Staff adoption resistance:**
 Taylor says: *"Honestly, I'm not sure my team will actually download another app. They're already annoyed when I ask them to use new things."* — Good SC response: acknowledge it's real, note the app is lightweight and most users are up and running in under 5 minutes, and point out the personal benefit to staff — they stop getting client calls on their personal number the moment they're on the app. The incentive is self-motivated.

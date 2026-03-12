@@ -6,9 +6,9 @@
 
 ## Business Context
 
-Taylor's salon has grown. Clients have gotten comfortable texting stylists directly on their personal phones — to book, to cancel last minute, to ask questions. What started as convenient has become a problem. Jenna (Taylor's lead stylist) gets texts at 10pm and feels like she can never fully unplug. One of the booth renters has started just not responding to client texts during evenings, and Taylor has heard from two clients that they felt ignored. Taylor doesn't have visibility into any of these conversations — and if a client is upset, she's the last to know.
+Taylor's salon has grown. Clients have gotten comfortable texting stylists directly on their personal phones — to book, to cancel last minute, to ask questions. What started as convenient has become a problem. Jenna (Taylor's lead stylist) gets texts at 10pm and feels like she can never fully unplug. One of the booth renters has started just not responding to client texts during evenings, and Taylor has heard from two clients that they felt ignored. Taylor doesn't have visibility into any of these conversations — and if a client is upset, he's the last to know.
 
-**Taylor's mindset going in:** Frustrated. This is a staff morale issue, a client experience issue, and a management problem all at once. She knows it's a problem but hasn't figured out what to do about it.
+**Taylor's mindset going in:** Frustrated. This is a staff morale issue, a client experience issue, and a management problem all at once. He knows it's a problem but hasn't figured out what to do about it.
 
 ---
 
@@ -37,7 +37,7 @@ Taylor's salon has grown. Clients have gotten comfortable texting stylists direc
 
 ## Sample Dialogue
 
-> **Note for SC:** This scenario has emotional weight — staff frustration and client experience are both at stake. Let Taylor vent before moving to solutions. The goal is to make her feel heard before showing her the fix.
+> **Note for SC:** This scenario has emotional weight — staff frustration and client experience are both at stake. Let Taylor vent before moving to solutions. The goal is to make him feel heard before showing him the fix.
 
 ---
 
@@ -112,7 +112,7 @@ Taylor's salon has grown. Clients have gotten comfortable texting stylists direc
 - SC lets Taylor vent about Jenna before moving toward solutions — empathy before product
 - SC reframes the problem as business risk (client experience, staff retention) not just inconvenience
 - "Is that possible?" is the buying signal — SC should pause and let that land before jumping to demo
-- Demo ends with Taylor thinking about her staff, not the features — that's the right outcome
+- Demo ends with Taylor thinking about his staff, not the features — that's the right outcome
 
 **Common SC mistakes to watch for:**
 - Moving to solutions too fast before Taylor has fully expressed the frustration
@@ -125,7 +125,7 @@ Taylor's salon has grown. Clients have gotten comfortable texting stylists direc
 Taylor says: *"But some of my clients have Jenna's number already. They're just going to keep texting her personally."* — Good SC response: acknowledge it's a real transition challenge. Suggest Jenna set a one-time auto-reply from her personal number: *"Hi! Shear Bliss has a new business text line — reach us at [number] for appointments and questions."* Most clients will switch after one redirect. This is a common migration path and typically resolves within a few weeks.
 
 **Objection 2 — Privacy concern about shared inbox:**
-Taylor says: *"I'm not sure my stylists will be comfortable with me seeing all their client conversations."* — Good SC response: reframe — the shared inbox only covers business communications through the salon number. Personal texts on their personal phones are completely separate and private. What Taylor sees is the business's conversation with clients, not anything personal. It's the same visibility she'd have if a receptionist was taking messages at a front desk.
+Taylor says: *"I'm not sure my stylists will be comfortable with me seeing all their client conversations."* — Good SC response: reframe — the shared inbox only covers business communications through the salon number. Personal texts on their personal phones are completely separate and private. What Taylor sees is the business's conversation with clients, not anything personal. It's the same visibility he'd have if a receptionist was taking messages at a front desk.
 
 **Objection 3 — "Can't clients just email?":**
 Taylor says: *"Honestly, couldn't clients just email us instead of texting?"* — Good SC response: validate the logic, then share the reality — open rates for business text messages are consistently over 90%, while email open rates average around 20–30%. For time-sensitive things like appointment changes, clients expect to text. Meeting them where they already are is a competitive advantage.

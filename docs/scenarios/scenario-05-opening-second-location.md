@@ -6,9 +6,9 @@
 
 ## Business Context
 
-Shear Bliss has been running well. Taylor has gotten the phone system working — the auto-attendant, business SMS, reporting, and her team on the app. Now she's expanding: she's signing a lease on a second location across town, called **Shear Bliss Westside**, opening in about 10 weeks. She's hiring two new stylists for that location, and Jenna (her lead stylist) will split time between both. Taylor wants to manage the whole business without being physically at both places every day. She's nervous about the complexity — right now the phone system is dialed in, and she doesn't want to break what's working while adding something new.
+Shear Bliss has been running well. Taylor has gotten the phone system working — the auto-attendant, business SMS, reporting, and his team on the app. Now he's expanding: he's signing a lease on a second location across town, called **Shear Bliss Westside**, opening in about 10 weeks. He's hiring two new stylists for that location, and Jenna (his lead stylist) will split time between both. Taylor wants to manage the whole business without being physically at both places every day. He's nervous about the complexity — right now the phone system is dialed in, and he doesn't want to break what's working while adding something new.
 
-**Taylor's mindset going in:** Excited about growth but anxious about operational complexity. She wants to feel like the system will scale with her, not become another thing to manage.
+**Taylor's mindset going in:** Excited about growth but anxious about operational complexity. He wants to feel like the system will scale with him, not become another thing to manage.
 
 ---
 
@@ -29,15 +29,15 @@ Shear Bliss has been running well. Taylor has gotten the phone system working �
 
 1. How do clients reach the right location? (Two locations, potentially confusing)
 2. What happens when one location is overwhelmed with calls — can they overflow to the other?
-3. Taylor can't be in two places — she needs visibility and control across both from wherever she is
-4. Jenna floats between locations — how does her phone setup handle that?
+3. Taylor can't be in two places — he needs visibility and control across both from wherever he is
+4. Jenna floats between locations — how does his phone setup handle that?
 5. Taylor wants one bill, one admin login, one system — not two separate setups
 
 ---
 
 ## Sample Dialogue
 
-> **Note for SC:** Taylor is a seasoned GoTo user now. She understands the platform. This conversation is peer-to-peer — she'll ask sharper questions and she'll think about edge cases. Treat her as an informed buyer making a scaling decision.
+> **Note for SC:** Taylor is a seasoned GoTo user now. He understands the platform. This conversation is peer-to-peer — he'll ask sharper questions and he'll think about edge cases. Treat him as an informed buyer making a scaling decision.
 
 ---
 
@@ -69,7 +69,7 @@ Shear Bliss has been running well. Taylor has gotten the phone system working �
 
 **Taylor:** Can she switch which location she's "at" in the app?
 
-**SC:** Yes — she sets her status and her location in the app. *(shows status/location toggle)* When she's at Westside, she's in the Westside queue. When she's back at the original location, she flips it. She's always only getting calls relevant to where she is.
+**SC:** Yes — she sets her status and her location in the app. *(shows status/location toggle)* When he's at Westside, he's in the Westside queue. When he's back at the original location, she flips it. She's always only getting calls relevant to where she is.
 
 **Taylor:** And I can see all of this from my phone?
 
@@ -99,7 +99,7 @@ Shear Bliss has been running well. Taylor has gotten the phone system working �
 
 **What good looks like:**
 - SC positions this as an extension of what Taylor already has — growth, not disruption
-- SC answers the billing question first, before Taylor even finishes asking it — show that you anticipated her concern
+- SC answers the billing question first, before Taylor even finishes asking it — show that you anticipated his concern
 - The Jenna use case is the emotional heart of this demo — SC should spend real time on it, not rush past it
 - "You're not dependent on someone texting you" — this line positions GoTo as giving Taylor back control. Make sure it lands.
 - SC ends by reinforcing continuity: *"same platform, same app, same admin login"* — Taylor's instinct to worry about complexity should be directly addressed
@@ -118,7 +118,7 @@ Taylor says: *"What if I decide Westside isn't working out and I want to close i
 Taylor says: *"This all sounds great, but I'm nervous about depending on an internet-based phone system. What happens if the internet goes down at one of my locations?"* — Good SC response: this is a fair concern for any cloud-based system. GoTo Connect has redundant infrastructure and publishes uptime stats (typically 99.99% uptime). If the internet at one location goes down, calls can be rerouted to the other location or to staff mobile numbers automatically. The mobile app also means staff can take calls over cellular data, not just WiFi, so the salon is never fully unreachable.
 
 **Objection 3 — Managing two bills / vendors:**
-Taylor says: *"I already feel like I'm managing a million vendors. Will this mean another bill, another support line, another login?"* — Good SC response: both locations are under one GoTo Connect account — one bill, one admin portal, one support relationship. Taylor is adding a location to her existing system, not a second system. This is exactly the consolidation argument for GoTo Connect: one platform handles the full communication stack for both salons.
+Taylor says: *"I already feel like I'm managing a million vendors. Will this mean another bill, another support line, another login?"* — Good SC response: both locations are under one GoTo Connect account — one bill, one admin portal, one support relationship. Taylor is adding a location to his existing system, not a second system. This is exactly the consolidation argument for GoTo Connect: one platform handles the full communication stack for both salons.
 
 ---
 

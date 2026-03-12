@@ -37,7 +37,7 @@ The SC asked open questions to understand the current phone setup before explain
 ---
 
 ### 1B — Did the SC uncover the specific pain, not just the topic?
-There's a difference between "you don't have a business number" (topic) and "you lost a client last month because she couldn't reach anyone and booked somewhere else" (pain). The SC should get to the emotional and business impact.
+There's a difference between "you don't have a business number" (topic) and "you lost a client last month because he couldn't reach anyone and booked somewhere else" (pain). The SC should get to the emotional and business impact.
 
 | Score | Behavior |
 |---|---|
@@ -90,7 +90,7 @@ GoTo Connect has features. Taylor has a salon. The SC should speak in terms of b
 
 | Score | Behavior |
 |---|---|
-| 4 | Zero unexplained jargon; all features were described in plain business language; SC used Taylor's own words back to her |
+| 4 | Zero unexplained jargon; all features were described in plain business language; SC used Taylor's own words back to him |
 | 3 | Mostly plain language; 1–2 technical terms slipped in but were quickly translated |
 | 2 | Regular use of product/technical terms without translation; Taylor would need to ask what they mean |
 | 1 | Heavy jargon throughout; demo assumed more technical knowledge than Taylor has |
@@ -186,7 +186,7 @@ A weak objection response defends the product. A strong one reframes the objecti
 
 | Score | Behavior |
 |---|---|
-| 4 | Response connected back to Taylor's specific pain; objection was reframed as a risk to her business goal, not an attack on the product |
+| 4 | Response connected back to Taylor's specific pain; objection was reframed as a risk to his business goal, not an attack on the product |
 | 3 | Response was reasonable and fact-based; mostly product-focused but connected at least partially to Taylor's situation |
 | 2 | Response was generic — could have been given to any customer; didn't reference Taylor's specific situation |
 | 1 | Response was defensive, dismissive, or inaccurate |
@@ -214,7 +214,7 @@ Good demos are conversations, not presentations. The SC should be in control of 
 ---
 
 ### 5B — Did the SC recover when Taylor pushed back or went off-script?
-Taylor is a real customer persona, not a friendly audience. When she expresses doubt, frustration, or goes in an unexpected direction, the SC needs to roll with it.
+Taylor is a real customer persona, not a friendly audience. When he expresses doubt, frustration, or goes in an unexpected direction, the SC needs to roll with it.
 
 | Score | Behavior |
 |---|---|

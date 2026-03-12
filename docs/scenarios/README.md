@@ -15,7 +15,7 @@ The goal is not just to teach features. It's to train SCs to **listen first, dem
 
 ## Customer Profile: Taylor
 
-Taylor is the owner of **Shear Bliss Salon** — a small, 6-person salon with a mix of employees and booth renters. She's friendly, direct, and practical. She's not technical and doesn't know VoIP terminology. She cares about her staff, her clients, and growing her business.
+Taylor is the owner of **Shear Bliss Salon** — a small, 6-person salon with a mix of employees and booth renters. He's friendly, direct, and practical. He's not technical and doesn't know VoIP terminology. He cares about his staff, his clients, and growing his business.
 
 | | |
 |---|---|
@@ -24,9 +24,9 @@ Taylor is the owner of **Shear Bliss Salon** — a small, 6-person salon with a 
 | **Staff** | 6 (grows to 8 by Scenario 5) |
 | **Personality** | Warm, business-savvy, non-technical, motivated by growth and staff wellbeing |
 | **Pain sensitivity** | Responds to staff experience and client retention arguments |
-| **Decision style** | Makes decisions when she can see the problem clearly and the solution feels manageable |
+| **Decision style** | Makes decisions when he can see the problem clearly and the solution feels manageable |
 
-**Taylor's language:** She says "clients," not "customers." She talks about "bookings," not "leads." She says "my team" or "my stylists," not "employees." Match her language.
+**Taylor's language:** He says "clients," not "customers." She talks about "bookings," not "leads." He says "my team" or "my stylists," not "employees." Match him language.
 
 ---
 
@@ -75,13 +75,13 @@ Each scenario includes an **Optional Objection** in the Trainer Notes. Use these
 **The best SC behavior to reinforce:**
 - Asking one clear question, then listening fully before asking another
 - Pausing after Taylor says something important and reflecting it back
-- Letting Taylor "discover" the problem herself rather than stating it for her
+- Letting Taylor "discover" the problem himself rather than stating it for him
 - Ending every demo by asking: "Does this solve the problem you described?"
 
 **Debrief questions after each scenario:**
 1. At what point did you decide to move from discovery to demo?
-2. What was the moment Taylor showed she was engaged?
-3. What would you do differently if she had pushed back on the price?
+2. What was the moment Taylor showed he was engaged?
+3. What would you do differently if he had pushed back on the price?
 4. Which feature mattered most to Taylor in this scenario — and how do you know?
 
 ---

@@ -42,17 +42,17 @@ The scenarios are designed to build on each other. Taylor's situation evolves fr
 
 ### For the SC Being Trained
 
-You'll be given a Business Context for the session. Your job is to have a real conversation with Taylor — ask questions, understand her situation, then demo GoTo Connect in a way that's relevant to what she told you.
+You'll be given a Business Context for the session. Your job is to have a real conversation with Taylor — ask questions, understand his situation, then demo GoTo Connect in a way that's relevant to what he told you.
 
-**The one rule:** Don't start demoing until you understand her pain. Discovery before demo, every time.
+**The one rule:** Don't start demoing until you understand his pain. Discovery before demo, every time.
 
 ---
 
 ## The Customer: Taylor
 
-Taylor owns **Shear Bliss Salon** — a small 6-person salon. She's friendly, practical, and non-technical. She doesn't know phone system terminology. She cares about her clients, her team, and her business.
+Taylor owns **Shear Bliss Salon** — a small 6-person salon. He's friendly, practical, and non-technical. He doesn't know phone system terminology. He cares about his clients, his team, and his business.
 
-Use her language:
+Use his language:
 - "clients" (not customers)
 - "bookings" (not leads)
 - "my team" or "my stylists" (not employees)

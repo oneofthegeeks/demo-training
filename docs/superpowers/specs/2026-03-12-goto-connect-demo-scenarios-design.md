@@ -43,13 +43,13 @@ Each scenario follows this format:
 **Complexity:** Basic
 
 **Business Context:**
-Taylor owns a 6-person salon. There is no business phone number. Clients call whoever's number they have — sometimes Taylor, sometimes a stylist. When Taylor is with a client, she lets it go to her personal voicemail. She hasn't thought much about it until bookings started feeling inconsistent.
+Taylor owns a 6-person salon. There is no business phone number. Clients call whoever's number they have — sometimes Taylor, sometimes a stylist. When Taylor is with a client, she lets it go to his personal voicemail. He hasn't thought much about it until bookings started feeling inconsistent.
 
 **Pain Points to Surface:**
 - No dedicated business number
 - Clients reaching different people (or no one) depending on who they call
 - Personal voicemail answering for the business — no professional greeting
-- Taylor doesn't know what she's missing when she's hands-on with clients
+- Taylor doesn't know what he's missing when he's hands-on with clients
 
 **GoTo Connect Features to Demo:**
 - Dedicated business phone number
@@ -65,7 +65,7 @@ SC uncovers the "personal cell phone" situation through discovery before jumping
 **Complexity:** Basic–Intermediate
 
 **Business Context:**
-Taylor has had a dedicated business number for a little while (or is considering it). She suspects the salon is losing bookings to missed calls but has no data. She doesn't know when the salon is busiest on the phones, whether voicemails are being checked, or how often calls go unanswered.
+Taylor has had a dedicated business number for a little while (or is considering it). He suspects the salon is losing bookings to missed calls but has no data. He doesn't know when the salon is busiest on the phones, whether voicemails are being checked, or how often calls go unanswered.
 
 **Pain Points to Surface:**
 - Zero visibility into call volume or missed calls
@@ -109,7 +109,7 @@ SC surfaces the staff frustration and client experience angle before demoing SMS
 **Complexity:** Intermediate–Advanced
 
 **Business Context:**
-A competing salon opened nearby and Taylor has noticed they have a much more polished phone experience — callers are greeted professionally, can press options to reach the right person, and get a proper after-hours message. Taylor's callers still just get a cell phone ringing or going to personal voicemail. She wants to upgrade the experience.
+A competing salon opened nearby and Taylor has noticed they have a much more polished phone experience — callers are greeted professionally, can press options to reach the right person, and get a proper after-hours message. Taylor's callers still just get a cell phone ringing or going to personal voicemail. He wants to upgrade the experience.
 
 **Pain Points to Surface:**
 - No auto-attendant or IVR — callers don't know who to ask for or what to press
@@ -132,7 +132,7 @@ SC uses the competitor comparison as a motivator without dismissing Taylor's cur
 **Complexity:** Advanced
 
 **Business Context:**
-Taylor is expanding — opening a second salon location across town in the next 3 months. She's worried about how to manage phone calls across two locations, how to make sure clients reach the right salon, and how she (as owner) can keep visibility across both without being on-site all the time. Some senior stylists will work at both locations.
+Taylor is expanding — opening a second salon location across town in the next 3 months. He's worried about how to manage phone calls across two locations, how to make sure clients reach the right salon, and how she (as owner) can keep visibility across both without being on-site all the time. Some senior stylists will work at both locations.
 
 **Pain Points to Surface:**
 - How do clients reach the right location?
@@ -156,7 +156,7 @@ SC treats this as a growth/expansion conversation, not just a phone upgrade. Dem
 ## Training Notes for SCs
 
 - **Discovery before demo:** In every scenario, the SC should ask questions to surface the pain before showing any feature. Jumping straight to the product demo is a red flag.
-- **Taylor's persona:** Taylor is friendly but not technical. She doesn't know VoIP terminology. Avoid jargon — translate features into business outcomes.
+- **Taylor's persona:** Taylor is friendly but not technical. He doesn't know VoIP terminology. Avoid jargon — translate features into business outcomes.
 - **Escalation path:** Each scenario builds on the previous. SCs should be able to run Scenario 1 alone or run all 5 as a progression showing a customer's full journey.
 - **Objection opportunities:** Scenarios 3 and 4 are good places for trainers to introduce objections (cost, complexity, change management) for SCs to handle.
 

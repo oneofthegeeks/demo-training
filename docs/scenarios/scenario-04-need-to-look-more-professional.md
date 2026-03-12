@@ -6,9 +6,9 @@
 
 ## Business Context
 
-A new competitor — Luxe Cuts — opened six blocks away six months ago. Taylor has noticed a shift. A few of her regulars have mentioned they went to Luxe Cuts "just to try it out." One client mentioned offhandedly that Luxe Cuts had a really nice phone experience — "you call and it's like calling a real company, it tells you what to press and everything." Taylor called Luxe Cuts herself just to hear it. She was embarrassed to realize how much more professional they sounded compared to Shear Bliss. She knows her stylists are better — but the first impression over the phone isn't reflecting that.
+A new competitor — Luxe Cuts — opened six blocks away six months ago. Taylor has noticed a shift. A few of his regulars have mentioned they went to Luxe Cuts "just to try it out." One client mentioned offhandedly that Luxe Cuts had a really nice phone experience — "you call and it's like calling a real company, it tells you what to press and everything." Taylor called Luxe Cuts himself just to hear it. He was embarrassed to realize how much more professional they sounded compared to Shear Bliss. He knows his stylists are better — but the first impression over the phone isn't reflecting that.
 
-**Taylor's mindset going in:** Pride is at stake. She wants the salon to feel established and premium. She's motivated — this isn't theoretical, it's a competitive response.
+**Taylor's mindset going in:** Pride is at stake. He wants the salon to feel established and premium. He's motivated — this isn't theoretical, it's a competitive response.
 
 ---
 
@@ -37,7 +37,7 @@ A new competitor — Luxe Cuts — opened six blocks away six months ago. Taylor
 
 ## Sample Dialogue
 
-> **Note for SC:** Taylor already knows she has a problem — she's motivated by competition. Your job is to validate her instinct and channel that motivation into a full phone experience demo. Walk her through a caller's journey end-to-end.
+> **Note for SC:** Taylor already knows he has a problem — he's motivated by competition. Your job is to validate his instinct and channel that motivation into a full phone experience demo. Walk him through a caller's journey end-to-end.
 
 ---
 
@@ -114,22 +114,22 @@ A new competitor — Luxe Cuts — opened six blocks away six months ago. Taylor
 
 **What good looks like:**
 - SC walks through the full **caller journey** — from first ring to resolution — rather than showing features in isolation
-- SC asks Taylor what she wants at each decision point (ring group order, voicemail message) — making the demo feel like a configuration session, not a presentation
+- SC asks Taylor what he wants at each decision point (ring group order, voicemail message) — making the demo feel like a configuration session, not a presentation
 - The hold music moment is a delight — let Taylor laugh and react; that's a memorable selling moment
 - SC ends by positioning the phone experience as brand expression, not just phone functionality
 
 **Common SC mistakes to watch for:**
 - Showing the IVR builder without explaining what a caller actually hears — always demo from the caller's perspective
-- Configuring everything without asking Taylor what she wants — the demo should feel collaborative
+- Configuring everything without asking Taylor what he wants — the demo should feel collaborative
 - Not showing after-hours routing — that's often the most impactful piece for small businesses
 
 **Optional objections for trainer use:**
 
 **Objection 1 — Setup complexity:**
-Taylor says: *"This seems complicated to set up. I'm not technical. Is this something I'd have to do myself?"* — Good SC response: walk through the onboarding process — GoTo Connect includes a dedicated onboarding specialist who sets up the auto-attendant, ring groups, and greetings with Taylor in a single session. After that, day-to-day changes (updating hours, swapping hold music, adding a staff member) are done through the admin portal and take minutes. Taylor doesn't need to understand how it works — she just needs to know how to change it.
+Taylor says: *"This seems complicated to set up. I'm not technical. Is this something I'd have to do myself?"* — Good SC response: walk through the onboarding process — GoTo Connect includes a dedicated onboarding specialist who sets up the auto-attendant, ring groups, and greetings with Taylor in a single session. After that, day-to-day changes (updating hours, swapping hold music, adding a staff member) are done through the admin portal and take minutes. Taylor doesn't need to understand how it works — he just needs to know how to change it.
 
 **Objection 2 — "I don't want to record my voice":**
-Taylor says: *"I'm not comfortable recording my own voice for the greeting. I'll sound unprofessional."* — Good SC response: she has options — GoTo Connect has a text-to-speech option where she types the greeting and a natural-sounding voice reads it. Many businesses use this. Alternatively, she can hire a voice actor on a platform like Voices.com for under $50 for a custom recording. Either way, the recording itself isn't a barrier.
+Taylor says: *"I'm not comfortable recording my own voice for the greeting. I'll sound unprofessional."* — Good SC response: he has options — GoTo Connect has a text-to-speech option where he types the greeting and a natural-sounding voice reads it. Many businesses use this. Alternatively, he can hire a voice actor on a platform like Voices.com for under $50 for a custom recording. Either way, the recording itself isn't a barrier.
 
 **Objection 3 — "Is this going to confuse my regulars?":**
 Taylor says: *"I'm worried that if I change how the phone works, my regular clients will get confused and annoyed."* — Good SC response: the new experience is objectively simpler for callers — they hear a clear greeting, press the right option, and reach the right person faster than before. The clients most likely to be confused are the ones who currently have Taylor's personal cell number. A brief heads-up text or in-salon note ("We have a new phone system — call us at [number]") handles the transition cleanly.

@@ -6,9 +6,9 @@
 
 ## Business Context
 
-Taylor has been using a business phone number for a few months — a step in the right direction — but the setup is still basic. Calls ring to her cell, she checks voicemail manually when she remembers, and she has no reporting or visibility into what's happening on the phones. She's had a few slow weeks and is starting to wonder if there's a pattern she's missing. A friend who owns a restaurant mentioned they use their phone system to see "when people are trying to reach them most" — and Taylor is curious whether that's something she could do too.
+Taylor has been using a business phone number for a few months — a step in the right direction — but the setup is still basic. Calls ring to his cell, he checks voicemail manually when he remembers, and he has no reporting or visibility into what's happening on the phones. He's had a few slow weeks and is starting to wonder if there's a pattern he's missing. A friend who owns a restaurant mentioned they use their phone system to see "when people are trying to reach them most" — and Taylor is curious whether that's something he could do too.
 
-**Taylor's mindset going in:** Slightly anxious. She suspects she's losing bookings but has no way to prove it. She's open to being shown data and loves the idea of understanding her business better.
+**Taylor's mindset going in:** Slightly anxious. He suspects he's losing bookings but has no way to prove it. He's open to being shown data and loves the idea of understanding his business better.
 
 ---
 
@@ -30,13 +30,13 @@ Taylor has been using a business phone number for a few months — a step in the
 1. No visibility into how many calls come in vs. how many are answered
 2. Voicemails sit in the system unheard — no notification when one arrives
 3. No way to identify peak call times to make sure the right staff are available
-4. Taylor's gut says she's losing bookings — but she has no data to confirm or act on it
+4. Taylor's gut says he's losing bookings — but he has no data to confirm or act on it
 
 ---
 
 ## Sample Dialogue
 
-> **Note for SC:** This scenario is about turning anxiety into clarity. Taylor already suspects there's a problem — your job is to help her see it clearly and show her that GoTo Connect gives her the visibility to fix it.
+> **Note for SC:** This scenario is about turning anxiety into clarity. Taylor already suspects there's a problem — your job is to help him see it clearly and show him that GoTo Connect gives him the visibility to fix it.
 
 ---
 
@@ -110,17 +110,17 @@ Taylor has been using a business phone number for a few months — a step in the
 - Demo is framed around business outcomes (recovering lost bookings) not features
 
 **Common SC mistakes to watch for:**
-- Jumping straight to the dashboard without establishing that Taylor doesn't know what she's missing
+- Jumping straight to the dashboard without establishing that Taylor doesn't know what he's missing
 - Showing every report available instead of focusing on the 2-3 that matter to Taylor
 - Not asking "what would it change for you" before the demo — that question sets up the value
 
 **Optional objections for trainer use:**
 
 **Objection 1 — Notification overload:**
-Taylor says: *"This is great — but I already have a ton of notifications coming at me. I don't need more emails."* — Good SC response: voicemail-to-email is configurable — Taylor can choose who receives the notification (just her, or also the receptionist), and the transcription means she can scan it in 5 seconds rather than listening to a 90-second voicemail. It's designed to reduce effort, not add noise.
+Taylor says: *"This is great — but I already have a ton of notifications coming at me. I don't need more emails."* — Good SC response: voicemail-to-email is configurable — Taylor can choose who receives the notification (just him, or also the receptionist), and the transcription means he can scan it in 5 seconds rather than listening to a 90-second voicemail. It's designed to reduce effort, not add noise.
 
 **Objection 2 — Contract / commitment fear:**
 Taylor says: *"I'm interested, but I don't want to be locked into a long contract. What if my business changes?"* — Good SC response: address the contract terms directly and honestly (month-to-month options vs. annual, what happens if they need to add or remove users). Reinforce that the platform scales up and down — adding a new stylist or removing a booth renter is a single change in the admin portal, not a new contract negotiation.
 
 **Objection 3 — "My carrier already does this":**
-Taylor says: *"Wait — doesn't my phone carrier already give me something like this? I feel like I saw something about a business line add-on."* — Good SC response: acknowledge that carriers offer basic call forwarding add-ons, then differentiate: carrier add-ons are single-line and have no reporting, no team inbox, no auto-attendant, no SMS, and no admin visibility. GoTo Connect is a business communication platform — the reporting alone shows Taylor things her carrier will never surface.
+Taylor says: *"Wait — doesn't my phone carrier already give me something like this? I feel like I saw something about a business line add-on."* — Good SC response: acknowledge that carriers offer basic call forwarding add-ons, then differentiate: carrier add-ons are single-line and have no reporting, no team inbox, no auto-attendant, no SMS, and no admin visibility. GoTo Connect is a business communication platform — the reporting alone shows Taylor things him carrier will never surface.

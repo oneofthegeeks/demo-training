@@ -63,15 +63,73 @@ Full persona details are in `docs/scenarios/README.md`.
 
 ## Scoring
 
-Scoring is based on **Demo2Win methodology** by Peter Cohan. The rubric evaluates five areas:
+Scoring is based on **Demo2Win methodology** by Peter Cohan. Each session is scored across 13 criteria in 5 sections, with a maximum of 52 points.
 
-1. **Discovery & Situation Fluency** — Did the SC ask before telling? Did they uncover real pain?
-2. **The "So What?" Test** — Did every feature connect to Taylor's stated problem?
-3. **Wow / How / Now Structure** — Did the demo have a clear arc with a next step?
-4. **Objection Handling** — Did the SC acknowledge and reframe, or defend and argue?
-5. **Presence & Confidence** — Did the SC own the conversation without dominating it?
+---
 
-Full scoring details, performance bands, and a debrief guide are in `docs/rubric/scoring-rubric.md`.
+### Section 1: Discovery & Situation Fluency
+*Did the SC listen before showing anything?*
+
+| Criterion | What's Being Evaluated |
+|---|---|
+| 1A — Asked before telling | Did the SC ask 3+ open questions and hold back the demo until real pain was on the table? |
+| 1B — Uncovered specific pain | Did the SC get to a concrete business consequence Taylor named himself — not just the symptom? |
+| 1C — Adapted to emotional state | Did the SC read Taylor's mood and match it — urgency with urgency, frustration with empathy? |
+
+---
+
+### Section 2: The "So What?" Test
+*Did every feature connect to Taylor's stated problem?*
+
+| Criterion | What's Being Evaluated |
+|---|---|
+| 2A — Features linked to pain | Was every feature shown tied directly to something Taylor said during discovery? |
+| 2B — Taylor's language, not product language | Zero unexplained jargon — did the SC speak in bookings, clients, and stylists, not VoIP terms? |
+| 2C — Outcomes, not features | Was each demo point framed as a business result, not just a product walkthrough? |
+
+---
+
+### Section 3: Wow / How / Now Structure
+*Did the demo have a clear arc?*
+
+| Criterion | What's Being Evaluated |
+|---|---|
+| 3A — Created interest (Wow) | Did the SC create a moment of anticipation before each demo point — not just open and click? |
+| 3B — Demo was focused (How) | Was the demo tight and relevant, with no rabbit holes or unrequested features? |
+| 3C — Prompted next step (Now) | Did the SC check for resonance after each point and end with a clear call to action? |
+
+---
+
+### Section 4: Objection Handling
+*Scored only if an objection was introduced — otherwise marked N/A.*
+
+| Criterion | What's Being Evaluated |
+|---|---|
+| 4A — Acknowledged before responding | Did Taylor feel heard before the SC responded — or did the SC immediately counter? |
+| 4B — Business context, not product defense | Did the response connect back to Taylor's situation, or was it a generic product defense? |
+
+---
+
+### Section 5: Presence & Confidence
+*Did the SC own the room without dominating it?*
+
+| Criterion | What's Being Evaluated |
+|---|---|
+| 5A — Owned without dominating | Was it a conversation, not a presentation? Did the SC stay in control without doing all the talking? |
+| 5B — Recovered from off-script moments | When Taylor pushed back or went sideways, did the SC stay calm and use it to learn more? |
+
+---
+
+### Performance Bands
+
+| Score (with objection) | Score (without objection) | Band |
+|---|---|---|
+| 47–52 | 40–44 | **Demo-Ready** — can run live customer demos with light coaching |
+| 39–46 | 33–39 | **Developing** — strong foundations; 2–3 areas to sharpen before going live |
+| 28–38 | 24–32 | **Building** — needs structured practice; not ready for live demos alone |
+| Below 28 | Below 24 | **Foundational** — revisit core Demo2Win principles before continuing |
+
+Full scoring rubric with 4-point behavioral descriptions, score sheets, and debrief guide: [`docs/rubric/scoring-rubric.md`](docs/rubric/scoring-rubric.md)
 
 ---
 

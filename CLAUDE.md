@@ -51,9 +51,20 @@ Each scenario has 3 optional objections in Trainer Notes. These are for trainers
 - Version: v1.0 — update version number at bottom of file when criteria change
 
 ## Pending Work
+
+### IN PROGRESS: GitHub Pages site
+Build `index.html` at repo root. GitHub Pages serves from main branch root automatically.
+- GoTo brand: purple `#6633CC`, teal `#00C8CB`, Nunito Sans (Google Fonts)
+- Single HTML file, hash-based JS routing, no build tools needed
+- Left sidebar nav: Home, 5 Scenarios, Scoring Rubric
+- Scenario pages: complexity badge, context, customer profile table, pain points (trainer callout box), sample dialogue (styled SC/Taylor chat bubbles), features demoed, trainer notes + collapsible objections
+- After pushing: repo Settings → Pages → Source: main branch / root → Save
+- Live URL will be: https://oneofthegeeks.github.io/demo-training
+
+### Future
 - Taylor to review all 5 scenarios and provide feedback
 - Refine rubric after first live training session
-- Roadmap: SC self-assessment checklist, video examples, additional verticals (dental, auto shop, law firm)
+- SC self-assessment checklist, video examples, additional verticals
 
 ## How to Make Changes
 - To update a scenario: read it first, then edit only what changed — don't rewrite the whole file

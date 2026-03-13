@@ -50,16 +50,30 @@ Each scenario has 3 optional objections in Trainer Notes. These are for trainers
 - Includes debrief guide for Taylor to use after each session
 - Version: v1.0 — update version number at bottom of file when criteria change
 
-## Pending Work
+## GitHub Pages Site
 
-### IN PROGRESS: GitHub Pages site
-Build `index.html` at repo root. GitHub Pages serves from main branch root automatically.
-- GoTo brand: purple `#6633CC`, teal `#00C8CB`, Nunito Sans (Google Fonts)
-- Single HTML file, hash-based JS routing, no build tools needed
-- Left sidebar nav: Home, 5 Scenarios, Scoring Rubric
-- Scenario pages: complexity badge, context, customer profile table, pain points (trainer callout box), sample dialogue (styled SC/Taylor chat bubbles), features demoed, trainer notes + collapsible objections
-- After pushing: repo Settings → Pages → Source: main branch / root → Save
-- Live URL will be: https://oneofthegeeks.github.io/demo-training
+**Status: Built.** Live at https://oneofthegeeks.github.io/demo-training
+
+**Files:**
+```
+index.html          # Home page
+scenario-1.html     # Scenario 1
+scenario-2.html     # Scenario 2
+scenario-3.html     # Scenario 3
+scenario-4.html     # Scenario 4
+scenario-5.html     # Scenario 5
+rubric.html         # Scoring Rubric
+css/styles.css      # Shared styles (GoTo brand: #6633CC purple, #00C8CB teal, Nunito Sans)
+```
+
+**Updating the sidebar nav:**
+The sidebar nav HTML is duplicated in all 7 HTML files (marked with `<!-- SIDEBAR NAV -->` comments).
+When updating nav (adding pages, renaming links, etc.) — update the nav block in ALL 7 files.
+
+**Activating GitHub Pages (one-time):**
+Repo Settings → Pages → Source: Deploy from branch → Branch: main → Folder: / (root) → Save
+
+## Pending Work
 
 ### Future
 - Taylor to review all 5 scenarios and provide feedback

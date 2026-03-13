@@ -1,25 +1,30 @@
 /* ============================================================
    GoTo Connect Demo Training Site
-   Brand: Purple #6633CC, Teal #00C8CB, Nunito Sans
+   Brand: GoTo current brand — black, white, yellow #F5DD00
+   Font: Nunito Sans (GoTo rebrand typeface)
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,400;1,6..12,600&display=swap');
 
 /* ── Variables ────────────────────────────────────────────── */
 :root {
-  --purple: #6633CC;
-  --purple-dark: #4f22a8;
-  --purple-light: #f0eafa;
-  --teal: #00C8CB;
-  --teal-light: #e0fafa;
-  --gray-50: #f9fafb;
-  --gray-100: #f3f4f6;
-  --gray-200: #e5e7eb;
-  --gray-400: #9ca3af;
-  --gray-600: #4b5563;
-  --gray-800: #1f2937;
-  --white: #ffffff;
-  --sidebar-width: 252px;
+  --black:        #111111;
+  --black-soft:   #1e1e1e;
+  --black-border: #2e2e2e;
+  --yellow:       #F5DD00;
+  --yellow-dark:  #d4be00;
+  --yellow-pale:  #fdf9d0;
+  --white:        #ffffff;
+  --gray-50:      #f9fafb;
+  --gray-100:     #f3f4f6;
+  --gray-200:     #e5e7eb;
+  --gray-400:     #9ca3af;
+  --gray-500:     #6b7280;
+  --gray-600:     #4b5563;
+  --gray-800:     #1f2937;
+  --teal:         #00C8CB;
+  --teal-light:   #e0fafa;
+  --sidebar-width: 256px;
   --font: 'Nunito Sans', system-ui, sans-serif;
 }
 
@@ -32,7 +37,7 @@ body {
   background: var(--gray-50);
   line-height: 1.6;
 }
-a { color: var(--purple); text-decoration: none; }
+a { color: var(--black); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 /* ── Layout ───────────────────────────────────────────────── */
@@ -45,7 +50,7 @@ a:hover { text-decoration: underline; }
 .sidebar {
   width: var(--sidebar-width);
   min-width: var(--sidebar-width);
-  background: var(--purple);
+  background: var(--black);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -57,38 +62,53 @@ a:hover { text-decoration: underline; }
 }
 
 .sidebar-header {
-  padding: 24px 20px 16px;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid var(--black-border);
 }
 
 .sidebar-logo {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--teal);
-  margin-bottom: 4px;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: -0.5px;
+  line-height: 1;
+  margin-bottom: 2px;
+  position: relative;
 }
 
-.sidebar-title {
-  font-size: 16px;
-  font-weight: 800;
-  color: var(--white);
-  line-height: 1.3;
+/* Yellow underline accent mimicking GoTo logo */
+.sidebar-logo::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: var(--yellow);
+  border-radius: 2px;
+  margin-top: 3px;
+}
+
+.sidebar-subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 .sidebar-nav {
-  padding: 12px 0;
+  padding: 12px 0 20px;
   flex: 1;
 }
 
 .nav-section-label {
   font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-weight: 800;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
-  padding: 16px 20px 6px;
+  color: rgba(255,255,255,0.3);
+  padding: 18px 20px 6px;
 }
 
 .nav-link {
@@ -96,24 +116,24 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 10px;
   padding: 9px 20px;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 600;
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.65);
   text-decoration: none;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.12s, color 0.12s;
   border-left: 3px solid transparent;
 }
 
 .nav-link:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.06);
   color: var(--white);
   text-decoration: none;
 }
 
 .nav-link.active {
-  background: rgba(255,255,255,0.12);
+  background: rgba(245,221,0,0.1);
   color: var(--white);
-  border-left-color: var(--teal);
+  border-left-color: var(--yellow);
 }
 
 .nav-badge {
@@ -125,9 +145,9 @@ a:hover { text-decoration: underline; }
   white-space: nowrap;
 }
 
-.badge-basic        { background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.8); }
-.badge-intermediate { background: rgba(0,200,203,0.25); color: var(--teal); }
-.badge-advanced     { background: rgba(255,200,100,0.2); color: #fbbf24; }
+.badge-basic        { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.55); }
+.badge-intermediate { background: rgba(0,200,203,0.2); color: var(--teal); }
+.badge-advanced     { background: rgba(245,221,0,0.2); color: var(--yellow); }
 
 /* ── Main Content ─────────────────────────────────────────── */
 .main-content {
@@ -137,54 +157,58 @@ a:hover { text-decoration: underline; }
 }
 
 .page {
-  max-width: 820px;
-  padding: 48px 48px 80px;
+  max-width: 840px;
+  padding: 48px 52px 80px;
 }
 
 /* ── Page Header ──────────────────────────────────────────── */
 .page-header {
   margin-bottom: 36px;
-  padding-bottom: 24px;
+  padding-bottom: 28px;
   border-bottom: 2px solid var(--gray-200);
 }
 
 .page-eyebrow {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--teal);
-  margin-bottom: 8px;
+  color: var(--gray-400);
+  margin-bottom: 10px;
 }
 
 .page-title {
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--gray-800);
-  line-height: 1.2;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--black);
+  line-height: 1.15;
+  letter-spacing: -0.5px;
   margin-bottom: 8px;
 }
 
 .page-subtitle {
   font-size: 16px;
-  color: var(--gray-600);
+  color: var(--gray-500);
+  font-weight: 400;
 }
 
 /* ── Complexity Badge ─────────────────────────────────────── */
 .complexity-badge {
   display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   padding: 4px 12px;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.complexity-basic            { background: var(--gray-200); color: var(--gray-600); }
-.complexity-basic-int        { background: #dbeafe; color: #1d4ed8; }
-.complexity-intermediate     { background: var(--teal-light); color: #0e7490; }
-.complexity-intermediate-adv { background: #fff7ed; color: #c2410c; }
-.complexity-advanced         { background: var(--purple-light); color: var(--purple); }
+.complexity-basic            { background: var(--gray-100); color: var(--gray-500); border: 1px solid var(--gray-200); }
+.complexity-basic-int        { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+.complexity-intermediate     { background: var(--teal-light); color: #0e7490; border: 1px solid #a5f3fc; }
+.complexity-intermediate-adv { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; }
+.complexity-advanced         { background: var(--yellow-pale); color: #713f12; border: 1px solid #fde68a; }
 
 /* ── Section Headings ─────────────────────────────────────── */
 .section {
@@ -192,18 +216,22 @@ a:hover { text-decoration: underline; }
 }
 
 .section-title {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--purple);
-  margin-bottom: 12px;
+  color: var(--black);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--yellow);
+  display: inline-block;
 }
 
 .section p {
   font-size: 15px;
   color: var(--gray-600);
   margin-bottom: 12px;
+  line-height: 1.7;
 }
 
 /* ── Customer Profile Table ───────────────────────────────── */
@@ -217,17 +245,20 @@ a:hover { text-decoration: underline; }
 }
 
 .profile-table td {
-  padding: 10px 16px;
+  padding: 11px 16px;
   border-bottom: 1px solid var(--gray-200);
   vertical-align: top;
 }
 
 .profile-table td:first-child {
   font-weight: 700;
-  color: var(--gray-600);
+  color: var(--gray-500);
   white-space: nowrap;
   width: 180px;
   background: var(--gray-50);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .profile-table td:last-child {
@@ -241,19 +272,19 @@ a:hover { text-decoration: underline; }
 /* ── Pain Points Callout ──────────────────────────────────── */
 .trainer-callout {
   background: #fffbeb;
+  border: 1px solid #fde68a;
   border-left: 4px solid #f59e0b;
   border-radius: 0 8px 8px 0;
   padding: 16px 20px;
-  margin-bottom: 8px;
 }
 
 .trainer-callout-label {
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #b45309;
-  margin-bottom: 10px;
+  color: #92400e;
+  margin-bottom: 12px;
 }
 
 .trainer-callout ol,
@@ -261,6 +292,7 @@ a:hover { text-decoration: underline; }
   margin-left: 20px;
   font-size: 14px;
   color: var(--gray-800);
+  line-height: 1.7;
 }
 
 .trainer-callout li {
@@ -272,21 +304,27 @@ a:hover { text-decoration: underline; }
   display: flex;
   flex-direction: column;
   gap: 12px;
+  background: var(--gray-50);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 24px;
 }
 
 .dialogue-note {
   font-size: 13px;
   font-style: italic;
   color: var(--gray-400);
-  padding: 8px 12px;
-  border-left: 3px solid var(--gray-200);
-  margin-bottom: 8px;
+  padding: 10px 14px;
+  border: 1px dashed var(--gray-200);
+  border-radius: 6px;
+  margin-bottom: 4px;
+  background: var(--white);
 }
 
 .bubble-row {
   display: flex;
   flex-direction: column;
-  max-width: 85%;
+  max-width: 82%;
 }
 
 .bubble-row.sc {
@@ -300,23 +338,22 @@ a:hover { text-decoration: underline; }
 }
 
 .bubble-speaker {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   color: var(--gray-400);
 }
 
 .bubble-row.taylor .bubble-speaker {
-  color: var(--purple);
+  color: var(--black);
 }
 
 .bubble {
   padding: 12px 16px;
-  border-radius: 12px;
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .bubble-row.sc .bubble {
@@ -327,13 +364,13 @@ a:hover { text-decoration: underline; }
 }
 
 .bubble-row.taylor .bubble {
-  background: var(--purple);
+  background: var(--black);
   border-radius: 12px 2px 12px 12px;
   color: var(--white);
 }
 
 .bubble em {
-  opacity: 0.75;
+  opacity: 0.65;
   font-style: italic;
 }
 
@@ -342,7 +379,7 @@ a:hover { text-decoration: underline; }
   font-size: 12px;
   font-style: italic;
   color: var(--gray-400);
-  padding: 8px 0;
+  padding: 6px 0;
   border-top: 1px dashed var(--gray-200);
   border-bottom: 1px dashed var(--gray-200);
   margin: 4px 0;
@@ -361,40 +398,53 @@ a:hover { text-decoration: underline; }
   gap: 12px;
   font-size: 14px;
   align-items: flex-start;
+  padding: 10px 14px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
 }
 
 .features-list li::before {
   content: '✓';
-  color: var(--teal);
-  font-weight: 800;
-  font-size: 15px;
+  color: var(--black);
+  font-weight: 900;
+  font-size: 13px;
   flex-shrink: 0;
-  margin-top: 1px;
+  background: var(--yellow);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
 }
 
 .features-list strong {
-  color: var(--gray-800);
+  color: var(--black);
+  font-weight: 700;
 }
 
 .features-list span {
-  color: var(--gray-600);
+  color: var(--gray-500);
 }
 
 /* ── Trainer Notes ────────────────────────────────────────── */
 .trainer-notes-box {
   background: var(--gray-100);
+  border: 1px solid var(--gray-200);
   border-radius: 10px;
   padding: 24px;
 }
 
 .trainer-notes-box h4 {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--gray-600);
+  letter-spacing: 0.08em;
+  color: var(--black);
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .trainer-notes-box h4:first-child {
@@ -405,6 +455,7 @@ a:hover { text-decoration: underline; }
   margin-left: 20px;
   font-size: 14px;
   color: var(--gray-600);
+  line-height: 1.7;
 }
 
 .trainer-notes-box li {
@@ -420,9 +471,10 @@ a:hover { text-decoration: underline; }
 }
 
 details.objection {
-  border: 1px solid var(--teal);
+  border: 1px solid var(--gray-200);
   border-radius: 8px;
   overflow: hidden;
+  background: var(--white);
 }
 
 details.objection summary {
@@ -434,17 +486,21 @@ details.objection summary {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: var(--teal-light);
+  gap: 10px;
   user-select: none;
+  transition: background 0.12s;
+}
+
+details.objection summary:hover {
+  background: var(--gray-50);
 }
 
 details.objection summary::-webkit-details-marker { display: none; }
 
 details.objection summary::before {
   content: '▶';
-  font-size: 10px;
-  color: var(--teal);
+  font-size: 9px;
+  color: var(--gray-400);
   transition: transform 0.2s;
   flex-shrink: 0;
 }
@@ -453,30 +509,37 @@ details.objection[open] summary::before {
   transform: rotate(90deg);
 }
 
+details.objection[open] summary {
+  background: var(--yellow-pale);
+  border-bottom: 1px solid var(--gray-200);
+}
+
 details.objection summary span.obj-label {
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 10px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #0e7490;
-  margin-right: 4px;
+  letter-spacing: 0.08em;
+  color: var(--gray-400);
+  background: var(--gray-100);
+  padding: 2px 7px;
+  border-radius: 4px;
 }
 
 .objection-body {
   padding: 16px;
   font-size: 14px;
   color: var(--gray-600);
-  line-height: 1.6;
-  border-top: 1px solid var(--teal);
-  background: var(--white);
+  line-height: 1.65;
 }
 
 .objection-body .taylor-says {
   font-style: italic;
   color: var(--gray-800);
-  margin-bottom: 10px;
-  padding-left: 12px;
-  border-left: 3px solid var(--purple);
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  background: var(--gray-50);
+  border-left: 3px solid var(--black);
+  border-radius: 0 6px 6px 0;
 }
 
 .objection-body .response {
@@ -485,7 +548,7 @@ details.objection summary span.obj-label {
 
 /* ── Rubric Styles ────────────────────────────────────────── */
 .rubric-section {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
   padding-bottom: 40px;
   border-bottom: 1px solid var(--gray-200);
 }
@@ -498,28 +561,31 @@ details.objection summary span.obj-label {
   font-size: 13px;
   font-style: italic;
   color: var(--gray-600);
-  margin-bottom: 20px;
-  padding: 10px 14px;
-  background: var(--purple-light);
-  border-left: 3px solid var(--purple);
+  margin-bottom: 24px;
+  padding: 12px 16px;
+  background: var(--yellow-pale);
+  border-left: 3px solid var(--yellow);
   border-radius: 0 6px 6px 0;
+  line-height: 1.6;
 }
 
 .criteria-block {
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .criteria-title {
   font-size: 16px;
-  font-weight: 700;
-  color: var(--gray-800);
+  font-weight: 800;
+  color: var(--black);
   margin-bottom: 6px;
+  letter-spacing: -0.2px;
 }
 
 .criteria-desc {
   font-size: 14px;
-  color: var(--gray-600);
+  color: var(--gray-500);
   margin-bottom: 14px;
+  line-height: 1.65;
 }
 
 .behavior-table {
@@ -532,14 +598,14 @@ details.objection summary span.obj-label {
 }
 
 .behavior-table th {
-  background: var(--gray-100);
-  padding: 8px 14px;
+  background: var(--black);
+  color: var(--white);
+  padding: 9px 14px;
   text-align: left;
   font-weight: 700;
-  color: var(--gray-600);
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
 }
 
 .behavior-table td {
@@ -547,13 +613,23 @@ details.objection summary span.obj-label {
   border-top: 1px solid var(--gray-200);
   vertical-align: top;
   color: var(--gray-600);
+  line-height: 1.55;
 }
 
 .behavior-table td:first-child {
-  width: 60px;
-  font-weight: 800;
+  width: 52px;
+  font-weight: 900;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
+  background: var(--gray-50);
+}
+
+.behavior-table tr:hover td {
+  background: var(--gray-50);
+}
+
+.behavior-table tr:hover td:first-child {
+  background: var(--gray-100);
 }
 
 .score-4 { color: #16a34a; }
@@ -564,9 +640,13 @@ details.objection summary span.obj-label {
 .score-field {
   display: inline-block;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--gray-400);
-  margin-top: 10px;
+  margin-top: 12px;
+  background: var(--gray-100);
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-200);
 }
 
 .summary-table {
@@ -579,14 +659,14 @@ details.objection summary span.obj-label {
 }
 
 .summary-table th {
-  background: var(--purple);
+  background: var(--black);
   color: var(--white);
   padding: 10px 16px;
   text-align: left;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .summary-table td {
@@ -597,20 +677,23 @@ details.objection summary span.obj-label {
 
 .summary-table td:first-child {
   font-weight: 700;
-  color: var(--purple);
+  color: var(--black);
+  font-size: 13px;
 }
 
 .summary-table td:last-child {
   text-align: right;
   color: var(--gray-400);
   font-weight: 700;
+  font-variant-numeric: tabular-nums;
 }
 
 .summary-table tr.total-row td {
-  background: var(--gray-100);
-  font-weight: 800;
-  color: var(--gray-800);
+  background: var(--yellow-pale);
+  font-weight: 900;
+  color: var(--black);
   font-size: 15px;
+  border-top: 2px solid var(--yellow);
 }
 
 .bands-table {
@@ -627,72 +710,78 @@ details.objection summary span.obj-label {
   background: var(--gray-100);
   padding: 8px 16px;
   text-align: left;
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 800;
+  font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--gray-600);
+  letter-spacing: 0.07em;
+  color: var(--gray-500);
 }
 
 .bands-table td {
-  padding: 10px 16px;
+  padding: 11px 16px;
   border-top: 1px solid var(--gray-200);
+  color: var(--gray-600);
 }
 
-.band-demo-ready   { color: #16a34a; font-weight: 700; }
-.band-developing   { color: #2563eb; font-weight: 700; }
-.band-building     { color: #d97706; font-weight: 700; }
-.band-foundational { color: #dc2626; font-weight: 700; }
+.band-demo-ready   { color: #16a34a; font-weight: 800; }
+.band-developing   { color: #2563eb; font-weight: 800; }
+.band-building     { color: #d97706; font-weight: 800; }
+.band-foundational { color: #dc2626; font-weight: 800; }
 
 .debrief-step {
   display: flex;
   gap: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   align-items: flex-start;
 }
 
 .debrief-number {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
-  background: var(--purple);
-  color: var(--white);
+  width: 34px;
+  height: 34px;
+  min-width: 34px;
+  background: var(--yellow);
+  color: var(--black);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 800;
-  font-size: 14px;
+  font-weight: 900;
+  font-size: 15px;
   margin-top: 2px;
+  flex-shrink: 0;
 }
 
 .debrief-step-content h4 {
   font-size: 15px;
-  font-weight: 700;
-  color: var(--gray-800);
-  margin-bottom: 4px;
+  font-weight: 800;
+  color: var(--black);
+  margin-bottom: 6px;
 }
 
 .debrief-step-content p {
   font-size: 14px;
   color: var(--gray-600);
   margin: 0;
+  line-height: 1.65;
 }
 
 .debrief-step-content blockquote {
   font-style: italic;
   color: var(--gray-600);
-  padding-left: 12px;
-  border-left: 3px solid var(--gray-200);
-  margin-top: 6px;
+  padding: 10px 14px;
+  background: var(--yellow-pale);
+  border-left: 3px solid var(--yellow);
+  border-radius: 0 6px 6px 0;
+  margin-top: 8px;
   font-size: 13px;
+  line-height: 1.65;
 }
 
 /* ── Home Page ────────────────────────────────────────────── */
 .home-intro {
   font-size: 16px;
   color: var(--gray-600);
-  line-height: 1.7;
+  line-height: 1.75;
   margin-bottom: 36px;
 }
 
@@ -706,58 +795,74 @@ details.objection summary span.obj-label {
 }
 
 .scenario-overview-table th {
-  background: var(--purple);
+  background: var(--black);
   color: var(--white);
   padding: 10px 16px;
   text-align: left;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .scenario-overview-table td {
-  padding: 12px 16px;
+  padding: 13px 16px;
   border-top: 1px solid var(--gray-200);
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .scenario-overview-table tr:hover td {
-  background: var(--gray-50);
+  background: var(--yellow-pale);
 }
 
 .scenario-overview-table td:first-child {
-  font-weight: 700;
-  color: var(--purple);
+  font-weight: 800;
+  color: var(--black);
+  font-size: 16px;
+  width: 44px;
+  text-align: center;
 }
 
 .scenario-overview-table td a {
-  color: var(--purple);
+  color: var(--black);
   font-weight: 700;
+}
+
+.scenario-overview-table td a:hover {
+  color: var(--black);
+  text-decoration: underline;
 }
 
 .how-to-use {
-  background: var(--purple-light);
-  border-radius: 10px;
-  padding: 24px;
-  margin-top: 36px;
+  background: var(--black);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin-top: 40px;
+  color: var(--white);
 }
 
 .how-to-use h3 {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--purple);
-  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--yellow);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .how-to-use ol {
-  margin-left: 20px;
+  margin-left: 22px;
   font-size: 14px;
-  color: var(--gray-600);
+  color: rgba(255,255,255,0.75);
+  line-height: 1.7;
 }
 
 .how-to-use li {
   margin-bottom: 8px;
+}
+
+.how-to-use strong {
+  color: var(--white);
 }
 
 /* ── Mobile ───────────────────────────────────────────────── */
@@ -766,14 +871,11 @@ details.objection summary span.obj-label {
     position: static;
     width: 100%;
     height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 
   .sidebar-header {
-    padding: 12px 16px;
-    border-bottom: none;
-    border-right: 1px solid rgba(255,255,255,0.15);
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--black-border);
   }
 
   .sidebar-nav {
@@ -782,6 +884,7 @@ details.objection summary span.obj-label {
     flex-wrap: wrap;
     padding: 8px;
     gap: 2px;
+    border-bottom: 1px solid var(--black-border);
   }
 
   .nav-section-label { display: none; }
@@ -796,8 +899,8 @@ details.objection summary span.obj-label {
 
   .nav-link.active {
     border-left: none;
-    border-bottom-color: var(--teal);
-    background: rgba(255,255,255,0.12);
+    border-bottom-color: var(--yellow);
+    background: rgba(245,221,0,0.1);
   }
 
   .nav-badge { display: none; }
@@ -820,5 +923,10 @@ details.objection summary span.obj-label {
 
   .behavior-table td:first-child {
     width: 40px;
+    font-size: 14px;
+  }
+
+  .page-title {
+    font-size: 24px;
   }
 }
